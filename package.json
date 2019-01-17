@@ -1,21 +1,29 @@
 {
-  "name": "aricarohwer-portfolio",
-  "version": "1.0.0",
-  "description": "\"# aricarohwer-portfolio\"",
-  "main": "script.js",
+  "name": "node-js-sample",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
   "scripts": {
-    "start":"script.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arohwer/aricarohwer-portfolio.git"
+    "url": "https://github.com/heroku/node-js-sample"
   },
-  "author": "arohwer",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arohwer/aricarohwer-portfolio/issues"
-  },
-  "homepage": "https://github.com/arohwer/aricarohwer-portfolio#readme",
-  "dependencies": {
-  }
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
 }
