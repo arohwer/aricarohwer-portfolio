@@ -4,7 +4,7 @@
   "description": "\"# aricarohwer-portfolio\"",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/arohwer/aricarohwer-portfolio/issues"
   },
-  "homepage": "https://github.com/arohwer/aricarohwer-portfolio#readme"
+  "homepage": "https://github.com/arohwer/aricarohwer-portfolio#readme",
+  "dependencies": {
+  }
 }
