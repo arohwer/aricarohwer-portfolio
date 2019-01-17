@@ -1,0 +1,19 @@
+{
+  "name": "aricarohwer-portfolio",
+  "version": "1.0.0",
+  "description": "\"# aricarohwer-portfolio\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arohwer/aricarohwer-portfolio.git"
+  },
+  "author": "arohwer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arohwer/aricarohwer-portfolio/issues"
+  },
+  "homepage": "https://github.com/arohwer/aricarohwer-portfolio#readme"
+}
