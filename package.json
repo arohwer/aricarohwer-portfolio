@@ -4,7 +4,7 @@
   "description": "\"# aricarohwer-portfolio\"",
   "main": "script.js",
   "scripts": {
-    "start":"node script.js"
+    "start":"script.js"
   },
   "repository": {
     "type": "git",
