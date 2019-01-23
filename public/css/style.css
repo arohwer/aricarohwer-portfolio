@@ -191,4 +191,6 @@ div.linkDiv {
 
 .icon {
   margin-right: 8px;
+  line-height: 60px;
+  vertical-align: middle;
   font-size: 25px; }
