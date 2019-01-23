@@ -96,7 +96,7 @@ div.linkDiv {
 .interestRow {
   width: 70%;
   margin: 0 auto;
-  margin-top: 60px; }
+  margin-top: 50px; }
 
 .topRow {
   padding-bottom: 50px; }
@@ -175,3 +175,7 @@ div.linkDiv {
   display: flex;
   flex-direction: row;
   margin-left: 70px; }
+
+.button {
+  width: 600px;
+  height: 175px; }
