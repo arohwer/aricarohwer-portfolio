@@ -16,7 +16,7 @@ nav {
 
 nav a :hover {
   background: #192C3D;
-  transition: background-color .4s; }
+  transition: .4s; }
 
 nav ul {
   list-style: none;
@@ -36,11 +36,11 @@ nav ul a div.linkDiv {
 
 nav ul a div.linkDiv {
   line-height: 50px;
-  background-color: #171A21;
+  background: #171A21;
   padding: 0px 30px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background-color .4s; }
+  transition: .4s; }
 
 nav ul a div.linkDiv {
   color: #F4F6F7; }
