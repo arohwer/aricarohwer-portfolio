@@ -94,7 +94,9 @@ div.linkDiv {
   flex-direction: row; }
 
 .interestRow {
-  width: 70%; }
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 60px; }
 
 .topRow {
   padding-bottom: 50px; }
