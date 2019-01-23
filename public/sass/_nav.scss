@@ -15,6 +15,7 @@ nav {
   height: 70px;
   box-sizing: border-box;
   transition: .4s;
+  will-change: transform;
 }
 
 
@@ -51,6 +52,8 @@ nav ul a div.linkDiv {
   text-decoration: none;
   text-transform: uppercase;
   transition: .4s;
+  will-change: transform;
+  
 }
 
 nav ul a div.linkDiv  {
