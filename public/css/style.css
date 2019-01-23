@@ -15,7 +15,11 @@ nav {
   box-sizing: border-box; }
 
 nav a :hover {
-  background: #192C3D; }
+  background: #192C3D;
+  -webkit-transition: background-color .8s ease;
+  -moz-transition: background-color .8s ease;
+  -ms-transition: background-color .8s ease;
+  transition: background-color .8s ease; }
 
 nav ul {
   list-style: none;
