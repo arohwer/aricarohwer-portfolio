@@ -1,5 +1,4 @@
-function scroll(element){   
-    var ele = document.getElementById(element);   
-    window.scrollTo(ele.offsetLeft,ele.offsetTop);
-}
-
+$('.smooth-goto').on('click', function() {  
+    $('html, body').animate({scrollTop: $(this.hash).offset().top - 50}, 1000);
+    return false;
+});
