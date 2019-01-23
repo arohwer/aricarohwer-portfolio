@@ -181,6 +181,10 @@ div.linkDiv {
   height: 60px;
   background-color: #145068;
   color: #FCFCF4;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  line-height: 600px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px; }
