@@ -117,7 +117,9 @@ div.linkDiv {
   font-weight: 600;
   font-size: 40px;
   text-align: center;
-  color: #145068; }
+  color: #145068;
+  text-align: center;
+  width: 100%; }
 
 .aboutText {
   font-family: "Montserrat";
