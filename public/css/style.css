@@ -88,7 +88,7 @@ div.linkDiv {
   flex-direction: row; }
 
 .topRow {
-  padding-bottom: 110px; }
+  padding-bottom: 80px; }
 
 .aboutTitle {
   text-align: center;
@@ -96,7 +96,7 @@ div.linkDiv {
 
 .aboutPadding {
   width: 300px;
-  min-height: 20px; }
+  min-height: 50px; }
 
 .columnMidAbout {
   width: 64%;
