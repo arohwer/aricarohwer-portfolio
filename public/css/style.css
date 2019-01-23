@@ -15,11 +15,7 @@ nav {
   box-sizing: border-box; }
 
 nav a :hover {
-  background: #192C3D;
-  -webkit-transition: all 10ms ease;
-  -moz-transition: all 10ms ease;
-  -ms-transition: all 10ms ease;
-  transition: all 10ms ease; }
+  background: #192C3D; }
 
 nav ul {
   list-style: none;
