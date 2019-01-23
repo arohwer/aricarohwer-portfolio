@@ -20,8 +20,7 @@ nav {
 
 nav a :hover {
   background: #192C3D;
-  transition: transform .8s ease;
-  will-change: transform;
+  transition: background-color .4s;
 }
 
 nav ul {
@@ -47,17 +46,15 @@ nav ul a div.linkDiv{
 
 nav ul a div.linkDiv {
   line-height: 50px;
-  color: #171A21;
+  background-color: #171A21;
   padding: 0px 30px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: transform .8s ease;
-  will-change: transform;
+  transition: background-color .4s;
 }
 
 nav ul a div.linkDiv  {
   color: #F4F6F7;
-
 }
 
 nav ul a div.linkDiv:focus {
