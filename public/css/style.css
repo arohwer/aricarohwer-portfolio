@@ -36,7 +36,6 @@ nav ul a div.linkDiv {
 nav ul a div.linkDiv {
   line-height: 50px;
   color: #171A21;
-  padding: 0px 30px;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: background-color .8s ease;
@@ -62,7 +61,8 @@ div.linkDiv {
 .linkP {
   margin: 0;
   line-height: 70px;
-  width: 100%; }
+  width: 100%;
+  padding: 0px 30px; }
 
 .title p {
   font-size: 50px;
