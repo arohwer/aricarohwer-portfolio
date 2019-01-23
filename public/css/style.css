@@ -96,7 +96,7 @@ div.linkDiv {
 
 .aboutPadding {
   width: 300px;
-  height: 20px; }
+  min-height: 20px; }
 
 .columnMidAbout {
   width: 64%;
