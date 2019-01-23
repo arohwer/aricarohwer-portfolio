@@ -187,10 +187,10 @@ div.linkDiv {
   line-height: 60px;
   text-align: center;
   vertical-align: middle;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 0 auto; }
 
 .icon {
   margin-right: 8px;
   line-height: 60px;
-  vertical-align: middle;
-  font-size: 25px; }
+  vertical-align: middle; }
