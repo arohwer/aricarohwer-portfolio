@@ -92,6 +92,9 @@ html {
 .columnGraphicHead {
   width: 27.5%; }
 
+a {
+  color: #FCFCF4; }
+
 .row {
   display: flex;
   flex-direction: row; }
