@@ -28,6 +28,9 @@ nav ul {
   display: flex;
   height: 70px; }
 
+nav ul.center {
+  width: 70px; }
+
 nav ul.left {
   float: left; }
 
@@ -66,6 +69,10 @@ div.linkDiv {
   margin: 0;
   line-height: 70px;
   padding: 0px 30px; }
+
+.logo {
+  width: 70px;
+  height: 70px; }
 
 .title p {
   font-size: 50px;
