@@ -192,6 +192,9 @@ a {
   flex-direction: row;
   margin-left: 70px; }
 
+.buttonRow {
+  justify-content: center; }
+
 .button {
   width: 250px;
   height: 60px;
