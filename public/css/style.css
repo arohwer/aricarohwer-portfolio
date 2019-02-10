@@ -29,7 +29,8 @@ nav ul {
   height: 70px; }
 
 nav ul.center {
-  width: 70px; }
+  max-width: 70px;
+  margin: 0px; }
 
 nav ul.left {
   float: left; }
