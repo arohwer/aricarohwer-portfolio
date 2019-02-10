@@ -28,7 +28,7 @@ nav ul {
   display: flex;
   height: 70px; }
 
-nav ul.center {
+nav div.center {
   max-width: 70px;
   margin: 0px; }
 
