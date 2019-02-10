@@ -37,14 +37,21 @@ nav ul {
 nav ul.center {
   max-width: 70px;
   margin: 0px;
+
+}
+
+.logo-container {
+  
 }
 
 nav ul.left {
   float: left;
+  left: 0;
 }
 
 nav ul.right {
   float: right;
+  right: 0;
 }
 
 nav ul a div.linkDiv{

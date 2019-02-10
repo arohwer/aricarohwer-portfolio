@@ -33,10 +33,12 @@ nav ul.center {
   margin: 0px; }
 
 nav ul.left {
-  float: left; }
+  float: left;
+  left: 0; }
 
 nav ul.right {
-  float: right; }
+  float: right;
+  right: 0; }
 
 nav ul a div.linkDiv {
   list-style: none; }
