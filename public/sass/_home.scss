@@ -32,6 +32,11 @@ a {
     color: #FCFCF4;
 }
 
+.navrow {
+    display: flex;
+    flex-direction: row;
+}
+
 .row {
     display: flex;
     flex-direction: row;
