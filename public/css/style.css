@@ -219,4 +219,9 @@ a {
 .downIcon {
   font-size: 30px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 5px;
+  color: #145068; }
+
+.downIcon:hover {
+  color: #192C3D; }
