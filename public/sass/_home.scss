@@ -170,9 +170,11 @@ a {
     text-align: center;
     margin: 0 auto;
     padding-top: 5px;
-    color: #145068;
 }
 
-.downIcon:hover {
+.downIconText {
+    color: #145068;
+}
+.downIconText:hover {
     color: #192C3D;
 }

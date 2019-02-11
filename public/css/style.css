@@ -220,8 +220,10 @@ a {
   font-size: 30px;
   text-align: center;
   margin: 0 auto;
-  padding-top: 5px;
+  padding-top: 5px; }
+
+.downIconText {
   color: #145068; }
 
-.downIcon:hover {
+.downIconText:hover {
   color: #192C3D; }
