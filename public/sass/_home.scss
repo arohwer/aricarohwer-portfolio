@@ -32,14 +32,12 @@ a {
     color: #FCFCF4;
 }
 
-.navrow {
+.row {
     display: flex;
     flex-direction: row;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
+.infoRow {
     height: calc(100vh - 50px);
 }
 
