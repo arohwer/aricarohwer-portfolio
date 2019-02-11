@@ -96,8 +96,9 @@ html {
   padding-bottom: 20px; }
 
 .columnMidHead {
+  padding-top: 20px;
   width: 45%;
-  height: 270px; }
+  height: 250px; }
 
 .columnGraphicHead {
   width: 27.5%; }
@@ -155,7 +156,7 @@ a {
   font-family: "Montserrat";
   font-size: 20px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 25px;
   line-height: 30px; }
 
 .skillTitle {
