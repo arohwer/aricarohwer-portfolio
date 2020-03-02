@@ -6,17 +6,23 @@ body {
 
 nav {
   background: #145068;
-  padding: 0px 50px;
+  padding: 0px 3vw;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 70px;
+  height: 11.5%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between; }
 
-nav a :hover {
+.navLink {
+  -webkit-transition: background-color .8s ease;
+  -moz-transition: background-color .8s ease;
+  -ms-transition: background-color .8s ease;
+  transition: background-color .8s ease; }
+
+.navLink:hover {
   background: #192C3D;
   -webkit-transition: background-color .8s ease;
   -moz-transition: background-color .8s ease;
@@ -28,23 +34,27 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  height: 70px; }
+  height: 11.5%; }
 
 nav div.center {
-  max-width: 70px;
-  margin: 0px; }
+  margin: 0px;
+  height: 100%; }
 
 nav ul.left {
-  float: left; }
+  float: left;
+  height: 100%; }
+
+nav ul.left a {
+  height: 100%; }
 
 nav ul.right {
-  float: right; }
+  float: right;
+  height: 100%; }
 
 nav ul a div.linkDiv {
   list-style: none; }
 
 nav ul a div.linkDiv {
-  line-height: 50px;
   color: #171A21;
   text-decoration: none;
   text-transform: uppercase;
@@ -66,16 +76,21 @@ a {
 div.linkDiv {
   line-height: 70px;
   vertical-align: center;
-  height: 70px; }
+  height: 100%; }
 
 .linkP {
+  font-size: 1.1vw;
   margin: 0;
-  line-height: 70px;
-  padding: 0px 30px; }
+  vertical-align: middle;
+  padding: 0px 2vw;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .logo {
-  width: 70px;
-  height: 70px; }
+  max-height: 100%;
+  min-height: 100%;
+  width: auto; }
 
 .title p {
   font-size: 50px;
