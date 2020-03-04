@@ -1,3 +1,4 @@
+
 .title p {
     font-size: 3.5vw;
     text-align: center;
@@ -5,12 +6,15 @@
     color: #145068;
 }
 
-html {
-    margin-bottom: 60px;
+html,body,.container{
+    height:100%;
+    width: 100%;
 }
 
-.titleRow {
-    margin-top:11.5%;
+.titleRowSpacer {
+    // height: 11.5%;
+    min-height: 14%;
+    width: 100%;
 }
 
 .subtitle p {
