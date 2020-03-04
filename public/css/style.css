@@ -157,9 +157,6 @@ nav ul {
   padding: 0;
   display: flex; }
 
-nav div.center {
-  margin: 0px; }
-
 nav ul.left {
   float: left;
   height: 100%; }
