@@ -89,7 +89,6 @@ a {
 }
 
 div.linkDiv {
-  line-height: 70px;
   vertical-align: center;
   height: 100%;
 }
@@ -108,5 +107,9 @@ div.linkDiv {
   max-height: 100%;
   min-height: 100%;
   width: auto;
+  text-align: center;
+}
+
+.center {
   margin: 0 auto;
 }

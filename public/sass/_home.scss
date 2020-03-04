@@ -29,7 +29,6 @@ html,body,.container{
     width: 45%;
     min-height: 50%;
     max-height: 50%;
-    // height: 250px;
 }
 
 .columnGraphicHead {
@@ -40,19 +39,24 @@ a {
     color: #FCFCF4;
 }
 
+.inTouchLink{
+    width: 20%;
+    height: 100%;
+}
+
 .row {
     display: flex;
     flex-direction: row;
 }
 
 .infoRow {
-    height: calc(100vh - 50px);
+    height: 89.5%;
 }
 
 .interestRow {
     width: 70%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 3%;
 }
 
 .topRow {
@@ -71,7 +75,7 @@ a {
 
 .aboutPadding {
     width: 100%;
-    height: 80px;
+    height: 30%;
 }
 
 .columnMidAbout {
@@ -94,7 +98,7 @@ a {
 .interestedTitle {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 40px;
+    font-size: 2.6vw;
     text-align: center;
     color: #145068;
     text-align: center;
@@ -109,11 +113,7 @@ a {
     line-height: 180%;
 }
 
-.skillTitle {
-    padding-top: 130px;
-    text-align: center;
-    width: 100%;
-}
+
 
 .wideRow {
     width: 100%;
@@ -123,7 +123,7 @@ a {
     color: #145068;
     font-family: "Montserrat";
     font-weight: 600;
-    font-size:30px;
+    font-size:2vw;
     text-align: center;
 }
 
@@ -132,18 +132,22 @@ a {
 }
 
 .skillRow {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 5%;
 }
 
+.extraPad {
+    margin-top: 6%;
+}
+
+
 .skillText {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
 .skillList {
-    text-align: left;
-    font-size: 18px;
+    text-align: center;
+    font-size: 1.4vw;
     width: 50%;
     color: #145068;
 }
@@ -151,30 +155,37 @@ a {
 .skillListSec {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-left: 5%;
 }
 
 .buttonRow {
     justify-content: center;
+    width: 100%;
+    height: 10%;
 }
 
 .button {
-    width: 250px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     background-color: #145068;
     color: #FCFCF4;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: 600;
     font-family: "Montserrat";
-    line-height: 60px;
     text-align: center;
     vertical-align: middle;
-    border-radius: 5px;
-    margin: 50px auto;
+    border-radius: 1vh;
+    margin: 5% auto;
+}
+
+.button p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icon {
-    margin-right: 8px;
+    margin-right: 5%;
     vertical-align: middle;
 }
 
@@ -183,6 +194,7 @@ a {
     text-align: center;
     margin: 0 auto;
     padding-top: 5%;
+    margin-bottom: 5%;
 }
 
 .downIconText {
